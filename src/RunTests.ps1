@@ -1,4 +1,4 @@
-Import-Module ..\Pester\Pester.psm1
+Import-Module Pester
 
 Invoke-Pester -EnableLegacyExpectations  -OutputXml "TestResults.xml"
 

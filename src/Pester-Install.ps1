@@ -1,6 +1,7 @@
 $mm = ($ENV:PSModulePath -split ';')[0]
 $pesterPath = "$mm\Pester"
-$pesterRoot = "..\Pester\*" 
+#update the pesterRoot to correct value
+$pesterRoot = "..\..\Pester\*" 
 
 if( -not (Test-Path $pesterPath)){
     mkdir $pesterPath    
